@@ -1,0 +1,22 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "using Babel with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
